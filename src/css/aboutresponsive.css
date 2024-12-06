@@ -1,0 +1,39 @@
+/* RESPONSIVLIK */
+
+/* tabletler */
+@media screen and (max-width:1024px) {
+    .about_achievment{
+        margin-top: 2rem;
+    } 
+    .about_achievments-container{
+        grid-template-columns: 1fr;
+    }
+    .about_achievments-left{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .team_container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
+    .team_member{
+        padding: 1rem;
+    }
+}
+/* mobile telefon */
+@media screen and (max-width:600px)  {
+ .achievment_cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+ }
+ .team_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+ }
+ .team_member{
+    padding: 0;
+ }
+ .team_member p{
+    margin-bottom: 1.5rem;
+ }
+}
